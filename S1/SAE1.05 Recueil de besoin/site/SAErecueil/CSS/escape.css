@@ -1,0 +1,165 @@
+ a {
+  color: white;
+  text-decoration: none;
+  border: none;
+
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 150px;
+  color: white;
+  font-size: 23px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+  border: solid;
+  margin-bottom: 2px;
+  background-color: #1E1E1E;
+}
+
+#blocpage {
+  margin: auto;
+  width: 100%;
+  background-image:url('bgUE.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.defilant {
+  
+  margin-top: 100px;
+  height: 300px;
+  overflow: scroll ;
+  text-align: center;
+  color: black;
+
+
+
+}
+
+.truc {
+  border-radius: 30px;
+  margin: 50px;
+  width: 500px;
+  padding-top: 80px;
+  height: 150px;
+  text-align: center;
+  background-color: white;
+  padding:auto;
+  font-size: 35px;
+
+}
+input {
+  display: inline-block;
+  background-color: red;
+  margin: 15px;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 7px;
+  font-weight: bold;
+  cursor: pointer;
+    }
+
+#jeu_un {
+  background-image: url('manoir.jpg');
+  background-position: center;
+  font-family: URW Chancery L, cursive;
+
+  }
+#jeu_deux {
+  background-image: url('mer.jpg');
+  background-position: center;
+  font-family: Luminari, fantasy;
+  } 
+#jeu_trois {
+  background-image: url('farwest.webp');
+  background-position: center;
+  font-family: Stencil Std, fantasy;
+
+  }
+footer ul {
+  list-style-type: none;
+  display: flex;
+}
+footer li {
+  margin-right: 150px;
+  color: white;
+  font-size: 19px; 
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  background-color: black;
+}
+/* deuxième page:  ----------------------------------------------;*/
+
+#page {
+  margin: auto;
+  width: 100%;
+}
+#photo {
+  background-image: url(manoir2.jpg);
+  width: 50%;
+  height: 350px;
+}
+.texte {
+  width: 30%;
+  background-color: rgb(56, 54, 65);
+  border-radius: 25px;
+  padding: 15px;
+  font-family: URW Chancery L, cursive;
+  font-size: 28px;
+  height: 185px;
+
+}
+.section2 {
+  margin-top: 40px;
+}
+#stats {
+  margin-top:15px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 15px;
+}
+#photo2 {
+  width: 50%;
+  height: 350px;
+  background-color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+
+}
+#synopsis2 {
+  margin-bottom: 170px;
+}
+#imgentre {
+  width: 50%;
+  height: 350px;
+  background-color: white;
+  margin: auto;
+  margin-bottom: 25px;
+  text-align: center;
+  padding-top: 175px;
+  font-size: 28px;
+}

@@ -1,0 +1,30 @@
+div {
+	margin-top: 130px;
+}
+input {
+	width: 45%;
+	height: 30px;
+	margin-bottom: 20px;
+
+}
+center {
+	display: flex;
+	flex-direction: column;
+	border: solid;
+	box-shadow: 5px;
+
+}
+form {
+	text-align: left;
+	padding-left: 35%;
+}
+h1,h2 {
+	margin-bottom: 30px;
+}
+
+#bouton_fin {
+	background-color: red;
+	width: 20% ;
+	border-radius: 20px;
+	margin-left: 13%;
+}
